@@ -1,0 +1,56 @@
+academy-platform/
+│   │   ├── Analytics.jsx
+│   │   └── Settings.jsx
+│   │
+│   ├── ui/
+│   │   ├── Button.jsx
+│   │   ├── Modal.jsx
+│   │   ├── Toast.jsx
+│   │   ├── Input.jsx
+│   │   ├── Tabs.jsx
+│   │   └── Loader.jsx
+│   │
+│   └── shared/
+│       ├── EmptyState.jsx
+│       ├── SearchBox.jsx
+│       └── UploadZone.jsx
+│
+├── context/
+│   ├── AuthContext.jsx
+│   └── StoreContext.jsx
+│
+├── hooks/
+│   ├── useAuth.js
+│   ├── useStore.js
+│   └── useToast.js
+│
+├── lib/
+│   ├── storage.js
+│   ├── helpers.js
+│   ├── constants.js
+│   └── theme.js
+│
+├── data/
+│   ├── users.js
+│   ├── courses.js
+│   ├── lectures.js
+│   ├── quizzes.js
+│   ├── homeworks.js
+│   ├── payments.js
+│   └── coupons.js
+│
+├── prisma/
+│   └── schema.prisma
+│
+├── public/
+│   ├── images/
+│   ├── icons/
+│   └── uploads/
+│
+├── .env
+├── .env.example
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+├── next.config.js
+└── jsconfig.json
